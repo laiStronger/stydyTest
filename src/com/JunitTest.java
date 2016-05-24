@@ -5,7 +5,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class JunitTest {
-11111
+
 	/**
 	 * 启动
 	 * 在所有方法执行之前执行
@@ -34,6 +34,7 @@ public class JunitTest {
 	@AfterClass
 	public static void after(){
 		System.out.println("销毁结束");
+		System.out.println("HAHAHAHA哈哈");
 	}
 	
 }
