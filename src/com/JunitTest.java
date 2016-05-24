@@ -5,18 +5,18 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class JunitTest {
-
+11111
 	/**
-	 * Æô¶¯
-	 * ÔÚËùÓĞ·½·¨Ö´ĞĞÖ®Ç°Ö´ĞĞ
+	 * å¯åŠ¨
+	 * åœ¨æ‰€æœ‰æ–¹æ³•æ‰§è¡Œä¹‹å‰æ‰§è¡Œ
 	 */
 	@BeforeClass
 	public static void setUp(){
-		System.out.println("Æô¶¯³õÊ¼»¯");
+		System.out.println("å¯åŠ¨åˆå§‹åŒ–");
 	}
 	
 	/**
-	 * ²âÊÔ1
+	 * æµ‹è¯•1
 	 */
 	@Test
 	public void test1(){
@@ -28,12 +28,12 @@ public class JunitTest {
 	}
 	
 	/**
-	 * Æô¶¯
-	 * ÔÚËùÓĞ·½·¨Ö´ĞĞÖ®Ç°Ö´ĞĞ
+	 * å¯åŠ¨
+	 * åœ¨æ‰€æœ‰æ–¹æ³•æ‰§è¡Œä¹‹å‰æ‰§è¡Œ
 	 */
 	@AfterClass
 	public static void after(){
-		System.out.println("Ïú»Ù½áÊø");
+		System.out.println("é”€æ¯ç»“æŸ");
 	}
 	
 }
